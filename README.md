@@ -19,9 +19,9 @@ To use this please include the following credit block as well as completing the 
  * Original Author: danieliser
  * Original Author URL: https://danieliser.com
 
-TODO Search & Replace prefix_ with your prefix
-TODO Search & Replace Prefix_ with your prefix
-TODO Search & Replace 'text-domain' with your 'text-domain'
-TODO Change the $api_url if your using the accompanying tracking server. Leave it blank to disable this feature.
-TODO Modify the ::triggers function array with your custom triggers & text.
-TODO Keep in mind highest priority group/code combination that has all passing conditions will be chosen.
+- TODO Search & Replace prefix_ with your prefix
+- TODO Search & Replace Prefix_ with your prefix
+- TODO Search & Replace 'text-domain' with your 'text-domain'
+- TODO Change the $api_url if your using the accompanying tracking server. Leave it blank to disable this feature.
+- TODO Modify the ::triggers function array with your custom triggers & text.
+- TODO Keep in mind highest priority group/code combination that has all passing conditions will be chosen.
