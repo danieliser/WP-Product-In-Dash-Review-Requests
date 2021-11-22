@@ -190,13 +190,13 @@ class Prefix_Modules_Reviews {
 
 		$trigger = self::triggers( $group, $code );
 
-		if(empty($key)){
-            $return = $trigger;
-        }elseif(isset($trigger[$key])){
-            $return = $trigger[$key];
-        }else {
-           	$return = false;
-        }
+		if( empty( $key ) ) {
+			$return = $trigger;
+		} elseif ( isset( $trigger[ $key ] ) ){
+			$return = $trigger[ $key ];
+		} else {
+			$return = false;
+		}
         
 		return $return;
 	}
@@ -337,15 +337,15 @@ class Prefix_Modules_Reviews {
 				return false;
 			}
 
-			if (!isset($code)) {
-                $return = $triggers[$group];
-            } elseif (isset($triggers[$group]['triggers'][$code])) {
-                $return = $triggers[$group]['triggers'][$code];
-            } else {
-                $return = false;
-            }
+			if ( ! isset( $code ) ) {
+				$return = $triggers[ $group ];
+			} elseif ( isset( $triggers[ $group ]['triggers'][ $code ] ) ) {
+				$return = $triggers[ $group ]['triggers'][ $code ];
+			} else {
+				$return = false;
+			}
 
-            return $return;
+			return $return;
 		}
 
 		return $triggers;
